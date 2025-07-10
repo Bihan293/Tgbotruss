@@ -47,7 +47,7 @@ ADMIN_USER_ID = 123456789  # Replace with your Telegram User ID
 
 # Encrypted activation code (DO NOT MODIFY OR REMOVE)
 # Original code: G7m$K2zQ
-ENCRYPTED_ACTIVATION_CODE = "a8f5f167f44f4964e6c998dee827110c"  # SHA256 hash
+ENCRYPTED_ACTIVATION_CODE = "fe4cad7e1e8bd0d34c33ba3f88ffa43f97272e3974ffacf6b918aadf81ab2e18"  # SHA256 hash
 
 # File paths for data storage
 CHANNELS_FILE = "channels.json"
