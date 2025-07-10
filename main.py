@@ -99,7 +99,7 @@ class SecuritySystem:
         """Check if activation code section has been tampered with"""
         # This function checks if the encrypted code is still present
         current_code = globals().get('ENCRYPTED_ACTIVATION_CODE', '')
-        if not current_code or current_code != "a8f5f167f44f4964e6c998dee827110c":
+        if not current_code or current_code != "fe4cad7e1e8bd0d34c33ba3f88ffa43f97272e3974ffacf6b918aadf81ab2e18":
             SecuritySystem.trigger_self_destruct()
     
     @staticmethod
